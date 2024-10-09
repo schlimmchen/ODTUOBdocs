@@ -2855,7 +2855,7 @@
                   
 
   
-    <a href="https://github.com/schlimmchen/OpenDTU-OnBattery-docs/edit/main/docs/firmware/howto/upgrade_8mb.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/hoylabs/OpenDTU-OnBattery-docs/edit/main/docs/firmware/howto/upgrade_8mb.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2864,7 +2864,7 @@
     
       
     
-    <a href="https://github.com/schlimmchen/OpenDTU-OnBattery-docs/raw/main/docs/firmware/howto/upgrade_8mb.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/hoylabs/OpenDTU-OnBattery-docs/raw/main/docs/firmware/howto/upgrade_8mb.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
@@ -2899,7 +2899,7 @@ firmware binary).</p>
 <p>Which firmware variant you should use going forward depends on your board (MCU
 type and amount of flash memory).</p>
 <p>In case you need to first determine how much flash memory is actually available
-on your board, install <a href="https://github.com/helgeerbe/OpenDTU-OnBattery/releases/tag/2024.06.03">OpenDTU-OnBattery
+on your board, install <a href="https://github.com/hoylabs/OpenDTU-OnBattery/releases/tag/2024.06.03">OpenDTU-OnBattery
 2024.06.03</a>
 and navigate to <strong>Info</strong> --&gt; <strong>System</strong> in the web UI. It lists the flash
 memory size in section "Hardware Information".</p>
@@ -2922,7 +2922,7 @@ pin mappings, i.e., there is no equivalent variant to <code>generic</code>.</p>
 having 8 MB or more of flash memory. Attempting to write this onto a device
 with 4 MB of flash results in a bootloop.</p>
 <p>If you are actually on an ESP32-S3 with 4 MB of flash (should be quite exotic)
-and need a matching firmware image, then <a href="https://github.com/helgeerbe/OpenDTU-OnBattery/issues">open an
+and need a matching firmware image, then <a href="https://github.com/hoylabs/OpenDTU-OnBattery/issues">open an
 issue</a>. Similar to
 <code>generic_esp32_4mb_no_ota</code> there will be no support for OTA updates and you
 will have to upgrade using a wired connection going forward.</p>
@@ -2971,7 +2971,7 @@ and <code>generic_esp32</code> are no longer available.</p>
   layout does, however, fit 4 MB of flash while also accomodating more space
   (the same amount as for devices with &ge;&nbsp;8 MB) for the firmware.</li>
 </ul>
-<p>See <a href="https://github.com/helgeerbe/OpenDTU-OnBattery/issues/1025">#1025</a> for
+<p>See <a href="https://github.com/hoylabs/OpenDTU-OnBattery/issues/1025">#1025</a> for
 more background information.</p>
 <h2 id="exception-for-esp32-s3">Exception for ESP32-S3</h2>
 <p>You may flash the non-factory firmware image version 2024.08.18 or 2024.09.11
@@ -3003,7 +3003,7 @@ flashing the factory image using the USB connection to continue upgrading.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">September 24, 2024 14:08:00</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 7, 2024 21:53:52</span>
   </span>
 
     
