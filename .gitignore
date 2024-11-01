@@ -1,3 +1,4 @@
 site/*
 .vscode/
 venv/
+pymod/__pycache__/

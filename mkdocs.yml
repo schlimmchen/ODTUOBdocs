@@ -65,11 +65,17 @@ extra_javascript:
 
 plugins:
   - search
+  - macros:
+      module_name: pymod
   - glightbox
   - git-revision-date-localized:
       type: datetime
       timezone: Europe/Berlin
       enable_creation_date: true
+
+watch:
+  - pymod/__init__.py
+  - pymod/mqtt.py
 
 markdown_extensions:
   - admonition
