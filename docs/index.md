@@ -65,6 +65,6 @@ This will help with offsetting the cost of the different hardware devices we sup
 
 [1]: https://www.hoymiles.com/
 [2]: https://www.github.com/tbnobody/OpenDTU/discussions
-[3]: https://discord.gg/WzhxEY62mB
+[3]: https://discord.gg/3QnqGdcq
 
 [^1]: Data Transfer Unit
